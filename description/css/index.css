@@ -1,0 +1,16 @@
+.card{
+    
+    cursor: pointer;
+    
+}
+.button{
+    padding: 1rem;
+    color: rgb(36, 49, 170);
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: cadetblue;
+    color: black;
+}
+
