@@ -1,18 +1,10 @@
-var total = 0
-function clic () {
-    total= total +1
-    document.getElementById("compteur").textContent= total;
-}
-
-var boutonElement = document.getElementById("bouton");
-boutonElement.addEventListener("click",clic)
 
 
 
 
 var bouton=document.getElementById('bouton')
 var compteur=document.getElementById('compteur')
-
+var btn=document.getElementById('btn')
 var bouton=document.querySelectorAll('#bouton')
 
 bouton.forEach((item)=>{
@@ -20,7 +12,10 @@ bouton.forEach((item)=>{
     item.addEventListener('click', function () {
         
         total= total +1
-        document.getElementById("compteur").textContent= total;
+        document.getElementById("compteur").textContent= total
     })
+
+    
 })
     
+
